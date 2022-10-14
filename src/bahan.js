@@ -8,7 +8,7 @@
 {buttonId: 'tes', buttonText: {displayText: 'None'}, type: 1}
 ]
 buttonMessage = {
-text: `*Crizzy-Bot*
+text: `*Gojo-Bot*
 
 *Hi* ${m.pushName}
 Jam : 
@@ -29,7 +29,7 @@ Jam :
 	> ( Masih demo )
 `,
 	
-footer: 'CrizzyBot - Beta\n© 2022 Fadhil Graphy',
+footer: 'GojoBot - Beta\n© 2022 Humanz',
 buttons: buttons,
 headerType: 1
 }*/
