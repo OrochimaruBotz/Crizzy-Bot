@@ -229,7 +229,7 @@ switch(command){
 			case'menu':
 			case'help': {
 				footerr = `Peringatan : Dilarang spam command/apapun ke bot!, dikarena mengakibatkan bot eror!\n© 2022 Humanz`
-				anu = `${fke}Hi ${m.pushName} 👋, i'am crizzy!${fke}
+				anu = `${fke}Hi ${m.pushName} 👋, i'am Gojo!${fke}
 
 ╭──❲ *GOJO BOT - MD* ❳
 │
