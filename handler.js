@@ -131,13 +131,13 @@ return buffer
                      }
 
 	const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `*HIDETAG!*`,jpegThumbnail: global.thumb}}}
-	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6283102650464-1589321480@g.us","inviteCode": "m","groupName": "Crizzy Bot", "caption": `© Fadhil Graphy`, 'jpegThumbnail': global.thumb}}}
+	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6283102650464-1589321480@g.us","inviteCode": "m","groupName": "GojoBotzMD", "caption": `© Humanz`, 'jpegThumbnail': global.thumb}}}
     const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283102650464-1589321480@g.us" } : {}) },message: { "videoMessage": { "title":`*AUTO DOWNLOAD AUDIO YOUTUBE*`, "h": `Hmm`,'seconds': '10000000⁰0', 'caption': `*AUTO DOWNLOAD AUDIO YOUTUBE*`, 'jpegThumbnail': global.thumb}}}
 
 		//TEMPLATE BUTTON!
 		const buttonsDefault = [
-			//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6285849261085` } },
-			{ urlButton: { displayText: `github!`, url : `https://github.com/FebriansyahXd` } },
+			//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6288804947282` } },
+			{ urlButton: { displayText: `github!`, url : `https://github.com/OrochimaruBotz` } },
 			{ quickReplyButton: { displayText: `🧑 owner`, id: `${prefix}owner` } },
 			{ quickReplyButton: { displayText: `💰 donate`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `🗼 ping bot`, id: `${prefix}pingbot` } }
@@ -228,10 +228,10 @@ if (isSpam) {
 switch(command){
 			case'menu':
 			case'help': {
-				footerr = `Peringatan : Dilarang spam command/apapun ke bot!, dikarena mengakibatkan bot eror!\n© 2022 Fadhil Graphy`
+				footerr = `Peringatan : Dilarang spam command/apapun ke bot!, dikarena mengakibatkan bot eror!\n© 2022 Humanz`
 				anu = `${fke}Hi ${m.pushName} 👋, i'am crizzy!${fke}
 
-╭──❲ *CRIZZY BOT - MD* ❳
+╭──❲ *GOJO BOT - MD* ❳
 │
 │ *Info*
 │> *Nama :* _「 ${m.pushName} 」_
@@ -348,7 +348,7 @@ switch(command){
 					btn = [{
                                 urlButton: {
                                     displayText: 'ꜰᴏʟʟᴏᴡ ɪɴꜱᴛᴀɢʀᴀᴍ',
-                                    url: 'https://instagram.com/fdhlgrphy'
+                                    url: 'https://instagram.com/humanzboti'
                                 }
                             }, {
                                 urlButton: {
@@ -373,9 +373,9 @@ switch(command){
                             }]
 
 				conn.send5ButLoc(from, anu, footerr, global.thumb, btn)
-				conn.sendMessage(from, {text : `*This is an ad*\n\n•───────────•\n${jsn[0].setting}\n•───────────•\n\n_© 2022 fdhlgrphy.com_`}, {quoted :{
+				conn.sendMessage(from, {text : `*This is an ad*\n\n•───────────•\n${jsn[0].setting}\n•───────────•\n\n_© 2022 Humanz.com_`}, {quoted :{
 				key: { fromMe: false,
-				participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283102650464-1589321480@g.us" } : {})},
+				participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6288804947282-1589321480@g.us" } : {})},
 				message: { "extendedTextMessage": {
 				"text": `*Hallo* _${pushname} 👋_\n	╰≻ Iklan _(mau pasang iklan? hub owner!)_`,
 				"title": `Pasang iklan murah bang`,
@@ -404,9 +404,9 @@ switch(command){
 					
 *⚠️ Nomor :*
 (Dana, OVO, GoPay, ShopeePay)
-	╰≻ 083102650464
+	╰≻ 088804947282
 (Telkomsel)
-	╰≻ 082135724604
+	╰≻ 088804947282
 (Qris)
 	╰≻ Click the button below. 
 
@@ -624,7 +624,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
   				conn.sendMessage(from, {
     				caption: cap, image: {
       				url: feta.data.qris
-    				}, buttons: buto, footer: `© 2022\nFadhil Graphy\nAffis Junianto`
+    				}, buttons: buto, footer: `© 2022\nHumanz\nRaditGanz`
   				})
 				}
 				console.log(feta)
@@ -745,21 +745,21 @@ conn.sendListMsg(from, `Silahkan click tombol dibawah ini`, `© 2022 Fadhil Grap
       }
 break
 case 'nmrownxnjayxz': { // yg lain yg ada button owner ganti ke ini biar langsung ke contact
-// follow https://github.com/Chandra-XD
-cok = {key: { fromMe: false, participant: `0@s.whatsapp.net`, ...({ remoteJid: "status@broadcast" })}, message: { 'contactMessage': { 'displayName': `Crizzy Bot`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;Crizzy Bot,;;;\nFN:Crizzy Bot,\nitem1.TEL;waid=0:0\nitem1.X-ABLabell:Ponsel\nEND:VCARD`} }}
+// follow https://github.com/OrochimaruBotz
+cok = {key: { fromMe: false, participant: `0@s.whatsapp.net`, ...({ remoteJid: "status@broadcast" })}, message: { 'contactMessage': { 'displayName': `Gojo Bot`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;Gojo Bot,;;;\nFN:GojoBot,\nitem1.TEL;waid=0:0\nitem1.X-ABLabell:Ponsel\nEND:VCARD`} }}
 conn.sendContact(from, global.owner, cok)
 }
 break
 // add by Chandra XD
-// follow https://github.com/Chandra-XD
+// follow https://github.com/OrochimaruBotz
 case 'biodatacookxkvz': {
 nduwur = `┍┈–––• *BIODATA OWNER*
-┆⫹⫺ Nama : -
-┆⫹⫺ Hobby : -
-┆⫹⫺ Status : -
-┆⫹⫺ Birthday : -
+┆⫹⫺ Nama : Humanz
+┆⫹⫺ Hobby : Mengotak Atik Program
+┆⫹⫺ Status : Pelajar
+┆⫹⫺ Birthday : 3 Maret 2010
 ┆⫹⫺ Address : -
-┆⫹⫺ Hobby : -
+┆⫹⫺ Hobby : Mengotak Atik Program
 └––––––––––––––––––·•
 
 ┍┈––––––• *SKILLS*
@@ -771,8 +771,8 @@ ngisor = `Social Media :
 YouTube : -
 Instragram : -
 TikTok : -
-Github : -
-Email : -
+Github : https://github.com/OrochimaruBotz
+Email : humanzboti19@gmail.com
 Whatsapp : -` // tambahin sendiri anjeng
 btnm = [{buttonId: `nmrownxnjayxz`, buttonText: {displayText: 'Owner Number'}, type: 1}]
 for (let i of profilebio) {
@@ -855,7 +855,7 @@ break
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                	{ urlButton: { displayText: `𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐔𝐬!`, url : `https://instagram.com/fdhlgrphy` } },
+                	{ urlButton: { displayText: `𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐔𝐬!`, url : `https://instagram.com/humanzboti` } },
                     { quickReplyButton: { displayText: `𝐀𝐮𝐝𝐢𝐨`, id: `ytmp3 ${anu.url}` } },
                     { quickReplyButton: { displayText: `𝐕𝐢𝐝𝐞𝐨`, id: `ytmp4 ${anu.url}` } }
                 ]
@@ -911,7 +911,7 @@ break
                 let resmed = await yta(text, quality)
                 if (resmed.filesize >= 100000) return m.reply('File Melebihi Batas '+util.format(resmed))
                 btnYts = [
-                    { urlButton: { displayText: `𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐔𝐬!`, url : `https://instagram.com/fdhlgrphy` } },
+                    { urlButton: { displayText: `𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐔𝐬!`, url : `https://instagram.com/humanzboti` } },
                     { quickReplyButton: { displayText: `𝐀𝐮𝐝𝐢𝐨`, id: `resaudkunci ${q}` } },
                     { quickReplyButton: { displayText: `𝐕𝐢𝐝𝐞𝐨`, id: `resvidkunci ${q}` } }
                 ]
@@ -988,9 +988,9 @@ break
 			case 'tt':
 			    if (!text) return m.reply('masukkan link nya')
 				let p = await fdl.downloader.tiktok(q)
-				let nih = ` *TIKTOK DOWNLOADER BY CRIZZY-BOT*
+				let nih = ` *TIKTOK DOWNLOADER BY GOJO-BOT*
 
-				©️ *Creator:* Fadhil Graphy
+				©️ *Creator:* Humanz
 				📌 *Title:* ${p.title}
 				👤 *Author:* ${p.author}
 
@@ -1016,7 +1016,7 @@ break
 				let aud = await fdl.downloader.tiktok(text)
 				let cap = ` *TIKTOK AUDIO*
 
-				©️ *Creator:* Fadhil Graphy
+				©️ *Creator:* Humanz
 				📌 *Title:* ${aud.title}
 				👤 *Author:* ${aud.author}
 
@@ -1061,7 +1061,7 @@ conn.sendMessage(from, {
       				url: makeSession.data.qrCode
     				}
   				})
-// const paydm = hikki.game.payDiamond(makeSession, '08953225697662')
+// const paydm = hikki.game.payDiamond(makeSession, '088804947282')
 console.log(paydm)
 //topupFreeFire().then(console.log).catch(console.error)
 //}
@@ -1116,7 +1116,7 @@ break*/
 			    let btn = [{
                                 urlButton: {
                                     displayText: '𝑺𝑼𝑷𝑶𝑹𝑻 𝑼𝑺!',
-                                    url: 'https://instagram.com/fdhlgrphy'
+                                    url: 'https://instagram.com/humanzboti'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1147,7 +1147,7 @@ break*/
                     let btn = [{
                                 urlButton: {
                                     displayText: '𝑺𝑼𝑷𝑶𝑹𝑻 𝑼𝑺!',
-                                    url: 'https://instagram.com/fdhlgrphy'
+                                    url: 'https://instagram.com/humanzboti'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1622,7 +1622,7 @@ try {
 conn.sendMessage(from, { text: util.format(eval(`( async () => { return ${body.slice(3)}})()`))}, { quoted: m})
 } catch (e) {
 print(e)
-conn.sendMessage(`6283102650464@s.whatsapp.net`, { text: String(e) }, { quoted: m})
+conn.sendMessage(`6288804947282@s.whatsapp.net`, { text: String(e) }, { quoted: m})
 }
 }
 }
