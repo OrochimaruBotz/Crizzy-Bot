@@ -35,8 +35,8 @@ function title() {
 	  console.log(color(`[•]`, 'aqua'), color(`Hai          : Owner`, 'yellow'))
 	  console.log(color(`[•]`, 'aqua'), color(`Bot Version : 1.0.0`, 'lime'))
 	  console.log(color(`[•]`, 'aqua'), color(`Status       : Online!`, 'white'))
-	  console.log(color(`[•]`, 'aqua'), color(`Owner       : Fadhil Graphy`, 'red'))
-	  console.log(color(`[•]`, 'aqua'), color(`Devoloper    : @fdhlgrphy`, 'magenta'))
+	  console.log(color(`[•]`, 'aqua'), color(`Owner       : Humanz`, 'red'))
+	  console.log(color(`[•]`, 'aqua'), color(`Devoloper    : @humanzboti`, 'magenta'))
 }
 //COLOR
 colors.setTheme({
