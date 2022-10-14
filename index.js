@@ -93,7 +93,7 @@ print(`${e}`.error)
     for (let dill of fadhil) {
     if (dill.isGroup == false) {
     if (dill.status == "offer") {
-    let pa7rick = await conn.sendTextWithMentions(dill.from, `*Crizzy-Bot* tidak bisa menerima panggilan ${dill.isVideo ? `video` : `suara`}. Maaf @${dill.from.split('@')[0]} kamu akan diblockir. Jika tidak sengaja silahkan hubungi Owner untuk dibuka !`)
+    let pa7rick = await conn.sendTextWithMentions(dill.from, `*Gojo-Bot* tidak bisa menerima panggilan ${dill.isVideo ? `video` : `suara`}. Maaf @${dill.from.split('@')[0]} kamu akan diblockir. Jika tidak sengaja silahkan hubungi Owner untuk dibuka !`)
     conn.sendContact(dill.from, global.owner, pa7rick)
     await sleep(8000)
     await conn.updateBlockStatus(dill.from, "block")
@@ -126,7 +126,7 @@ print(`${e}`.error)
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await conn.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await conn.getName(i + '@s.whatsapp.net')}\nFN:${await conn.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET: fadhilgraphy@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://instagram.com/fdhlgrphy\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Klaten, Jawa Tengah, Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await conn.getName(i + '@s.whatsapp.net')}\nFN:${await conn.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET: humanzboti19@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://github.com/OrochimaruBotz\nitem3.X-ABLabel:Github\nitem4.ADR:;;Surabaya, Jawa Timur, Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	conn.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
