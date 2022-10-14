@@ -428,7 +428,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
                     {buttonId: `qriscrizzy`, buttonText: {displayText: 'Pay With QRIS'}, type: 1},
                     {buttonId: `owner`, buttonText: {displayText: 'Confirm to owner'}, type: 2} 
                 ]
-					conn.sendMessage(from, { caption: pes, image: { url: 'https://telegra.ph/file/91e21669655c0116b70a4.jpg' } , buttons: but, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n For more information, please contact the owner!\n\n© 2022 Fadhil Graphy` })
+					conn.sendMessage(from, { caption: pes, image: { url: 'https://telegra.ph/file/91e21669655c0116b70a4.jpg' } , buttons: but, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n For more information, please contact the owner!\n\n© 2022 Humanz` })
 					} 
 				break
 			case 'qriscrizzy':{
@@ -436,7 +436,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 				bta = [
                  	   {buttonId: `owner`, buttonText: {displayText: 'Confirm to owner'}, type: 1} 
              	   ]
-						conn.sendMessage(from, { caption: captionQris, image: { url: 'https://telegra.ph/file/48e23a5d0b11096d636c2.jpg' } , buttons: bta, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n\n© 2022 Fadhil Graphy` })
+						conn.sendMessage(from, { caption: captionQris, image: { url: 'https://telegra.ph/file/48e23a5d0b11096d636c2.jpg' } , buttons: bta, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n\n© 2022 Humanz` })
 						} 
 			 
 				break
@@ -598,12 +598,12 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
   				rows: list
 				},
 				]
-				conn.sendListMsg(from, `Pilih layanan sesuai dengan yang ingin anda beli!\njika anda membeli followers maka pilih followers\ndiharapkan anda sudah faham.`, `© 2022\nFadhil Graphy (owner bot)\nAffis Junianto (owner smm)`, `Hallo, Berikut layanan kami`, `Click Here`, nyobb, m)
+				conn.sendListMsg(from, `Pilih layanan sesuai dengan yang ingin anda beli!\njika anda membeli followers maka pilih followers\ndiharapkan anda sudah faham.`, `© 2022\nHumanz (owner bot)\nAffis Junianto (owner smm)`, `Hallo, Berikut layanan kami`, `Click Here`, nyobb, m)
 				}
 				break
 			case 'confirmorderkunci': { //KUNCI = BIAR GA DIAKSES HEHE
 				if (m.isGroup) return m.reply('Fitur Tidak Dapat Digunakan Untuk Group!')
-				if (args.length < 1) return m.reply(`*Cara order followers*\n\n*Example :* _${prefix + command} jumlah|username tanpa (@)_\n*Example :* _${prefix + command} 500|fdhlgrphy_\n\n*Min pesan :* _300_ \n*Max pesan :* _500k_\n\nThank You`)
+				if (args.length < 1) return m.reply(`*Cara order followers*\n\n*Example :* _${prefix + command} jumlah|username tanpa (@)_\n*Example :* _${prefix + command} 500|humanzboti_\n\n*Min pesan :* _300_ \n*Max pesan :* _500k_\n\nThank You`)
 				let jumlah = q.split('|')[0] ? q.split('|')[0]: q
 				let targ = q.split('|')[1] ? q.split('|')[1]: ''
 				let idny = q.split('|')[2] ? q.split('|')[2]: ''
@@ -672,7 +672,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
   				},
 				]
 				await conn.sendMessage(from, {
-  				text: `${captionnye}`, templateButtons: menuButa, footer: `Copy id pesanan anda dibawah ini\n\nampibismm.my.id\n© 2022 Fadhil Graphy`
+  				text: `${captionnye}`, templateButtons: menuButa, footer: `Copy id pesanan anda dibawah ini\n\nampibismm.my.id\n© 2022 Humanz`
 				}, {
   				quoted: m
 				})
@@ -741,7 +741,7 @@ sections = [
                 ]
                 },
                 ]
-conn.sendListMsg(from, `Silahkan click tombol dibawah ini`, `© 2022 Fadhil Graphy`, `Hai ${pushname} 👋`, `Click Here`, sections, fake)
+conn.sendListMsg(from, `Silahkan click tombol dibawah ini`, `© 2022 Humanz`, `Hai ${pushname} 👋`, `Click Here`, sections, fake)
       }
 break
 case 'nmrownxnjayxz': { // yg lain yg ada button owner ganti ke ini biar langsung ke contact
@@ -966,12 +966,12 @@ break
 				let saking = q.split('|')[1] ? q.split('|')[1] : q
 				let pesan = q.split('|')[2] ? q.split('|')[2] : ''
 				if (pesan.length < 1) return m.reply(`Harus di isi semua! ex : menfess 62831xxxxxxxx|orang|hallo kamu`)
-				 let teksnya = `Hai kak ada Menfess nih!!\n─────────────\n*Crizzy-Bot*\n─────────────\n\nDari : _${saking}_ \nPesan : _${pesan}_ `
+				 let teksnya = `Hai kak ada Menfess nih!!\n─────────────\n*Gojo-Bot*\n─────────────\n\nDari : _${saking}_ \nPesan : _${pesan}_ `
 				header = 'hayyy'
 					gambar = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMkjAJhYezm4h6k1AJ6qfreGkaRdBcR7UHMw&usqp=CAU`
 
 				 but = [
-					{ urlButton: { displayText: `𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐔𝐬!`, url : `https://instagram.com/fdhlgrphy` } },
+					{ urlButton: { displayText: `𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐔𝐬!`, url : `https://instagram.com/humanzboti` } },
                     { quickReplyButton: { displayText: `𝐓𝐞𝐫𝐢𝐦𝐚 𝐌𝐞𝐧𝐟𝐞𝐬𝐬`, id: `menfesconfirm ${m.sender}` } },
                     { quickReplyButton: { displayText: `𝐊𝐢𝐫𝐢𝐦 𝐌𝐞𝐧𝐟𝐞𝐬𝐬𝐦𝐮`, id: `Menfess` } }
                 		]
@@ -1174,12 +1174,12 @@ break*/
                     {buttonId: `tes`, buttonText: {displayText: 'tes'}, type: 4},
                     {buttonId: `tes`, buttonText: {displayText: 'tes'}, type: 5}
                 ]
-                conn.sendMessage(from, {text:`*NGETES BUTTON*`, title: 'WALLET', footer: '© 2022 Fadhil Graphy', buttons: buttons})
+                conn.sendMessage(from, {text:`*NGETES BUTTON*`, title: 'WALLET', footer: '© 2022 Humanx', buttons: buttons})
                 }
                 break
 			case 'request': case 'requestfitur':{
 				if (!text) return m.reply(`Text mana?\n\nExample : ${prefix + command} Tambahin fitur tiktok downloader dong`)
-				conn.sendMessage(`6283102650464@s.whatsapp.net`, {text: `*Hallo owner ada yang request fitur nih*\n\nPesan : ${text}\nPengirim : ${m.sender}`}, {quoted: {key: { fromMe: false,
+				conn.sendMessage(`6288804947282@s.whatsapp.net`, {text: `*Hallo owner ada yang request fitur nih*\n\nPesan : ${text}\nPengirim : ${m.sender}`}, {quoted: {key: { fromMe: false,
 				participant: `${m.sender}`, ...(from ? { remoteJid: "6283102650464-1589321480@g.us" } : {})},
 				message: { "extendedTextMessage": {
 				"text": `Request Fitur!`,
